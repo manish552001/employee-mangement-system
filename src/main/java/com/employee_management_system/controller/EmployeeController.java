@@ -14,10 +14,7 @@ import com.employee_management_system.service.EmployeeService;
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
-	@GetMapping("/check")
-	public String name() {
-		return "Sbh badiya hai";
-	}
+	
 	  private final EmployeeService employeeService;
 
 	    public EmployeeController(EmployeeService employeeService) {
